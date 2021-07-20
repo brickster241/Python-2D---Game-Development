@@ -5,6 +5,8 @@ There are 2 main classes which will have their own masks:
 - `class PipePair(pygame.sprite.Sprite):` -> To represent the pipes which come from the right part of the screen.  
   
   
+![Flappy Bird using Pygame](flappy_bird.png)  
+  
   
   
   
@@ -16,7 +18,6 @@ Convert ms to frames at the specified frame rate.
   
   
   
-![Flappy Bird using Pygame](flappy_bird.png)  
   
   
   
