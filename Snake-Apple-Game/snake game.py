@@ -108,7 +108,7 @@ def gameLoop():
     snake.append((lead_x, lead_y))
 
     pygame.mixer.init()
-    pygame.mixer.music.load("sound.mp3")
+    pygame.mixer.music.load("sounds/sound.mp3")
     pygame.mixer.music.set_volume(0.7)
 
     while not gameExit:
@@ -153,7 +153,7 @@ def gameLoop():
         lead_y += lead_y_change
         snake_coords(snake, lead_x, lead_y, pos)
         if pos[(lead_x, lead_y)] > 1:
-            pygame.mixer.music.load("gameOver.mp3")
+            pygame.mixer.music.load("sounds/gameOver.mp3")
             pygame.mixer.music.play()
             pygame.time.wait(1000)
             gameOver = True
@@ -168,7 +168,7 @@ def gameLoop():
                 FPS += 2
             # print(len(snake))
         if lead_x > display_width - 2 * block_size or lead_x < block_size or lead_y > display_height - 2 * block_size or lead_y < block_size:
-            pygame.mixer.music.load("gameOver.mp3")
+            pygame.mixer.music.load("sounds/gameOver.mp3")
             pygame.mixer.music.play()
             pygame.time.wait(1000)
             gameOver = True
