@@ -21,7 +21,6 @@ Draws the suitable background for the game.
 ### 6. ` def gameLoop(): `   
 This is the main game Loop. All the pre-defined functions along with the pygame module are used here.  
 
-**The following is a visual representation of one of the points in the game. As you can see, the score is also visible. **  
 
 
 
