@@ -1,4 +1,4 @@
-# Fappy Bird Game :-> 2D Pygame  
+# Flappy Bird Game :-> 2D Pygame  
 The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them. Also a brief introduction to pygame sprites and masks. Specifically, Pygame module for image masks. Useful for fast pixel perfect collision detection. A mask uses 1 bit per-pixel to store which parts collide. We create a Mask object from the given surface by setting all the opaque pixels and not setting the transparent pixels.  
 There are 2 main classes which will have their own masks:  
 - `class Bird(pygame.sprite.Sprite):` -> To represent the Flappy bird.  
