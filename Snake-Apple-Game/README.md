@@ -5,7 +5,13 @@ The functions used in the game / algorithm are:
 This starts the game screen and loads the game. This gives the option of playing the game multiple times.  
 ### 2. ` def message_to_screen(msg, font_size, center, color, y_displace=0): `   
 Any random message to the screen can be displayed using this function.  
+  
+  
+  
 ![Snake and Apple Game using Pygame](Implementation.png)  
+  
+  
+  
 ### 3. ` def snake_coords(snake, x, y, pos): `   
 Thus function keeps the track of all the points in the snake. A deque is used for its implementation.  
 ### 4. ` def draw_snake(snake, block_size, img, direction): `  
