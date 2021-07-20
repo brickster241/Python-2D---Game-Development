@@ -212,7 +212,7 @@ def main():
 
     pygame.init()
     pygame.mixer.init()
-    pygame.mixer.music.load("sound.mp3")
+    pygame.mixer.music.load("sounds/sound.mp3")
     pygame.mixer.music.set_volume(0.8)
 
     display_surface = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
@@ -251,7 +251,7 @@ def main():
         # check collisions
         pipe_collision = any(pipe.collides_with(bird) for pipe in Pipes)
         if pipe_collision or 0 >= bird.Y or bird.Y >= WIN_HEIGHT - Bird.HEIGHT:
-            pygame.mixer.music.load("gameOver.mp3")
+            pygame.mixer.music.load("sounds/gameOver.mp3")
             pygame.mixer.music.play()
             pygame.time.wait(1500)
             gameOver = True
