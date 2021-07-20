@@ -24,11 +24,6 @@ There are 4 different files in our game:
 ![Angry Birds Wall Toggle using Pygame + Pymunk](walls.png)  
   
 
-### Gravity - Zero can be switched on by the key 'Z'  
-  
-  
-![Angry Birds gravity-zero using Pygame + Pymunk](gravity-zero.png)  
-  
   
   
   
@@ -44,10 +39,18 @@ The functions which are used :
 - `def vector(p0, p1):` : Returns a vector in the direction from point p0 to p1.  
 - `def unit_vector(v):` : Returns the unit vector in the direction of v.  
 - `def sling_action():` : Given the mouse position, the type of collision, the length of the rope stretched, the position of the sling will be defined in this function.  
-- `def draw_level_cleared() / draw_level_failed():` : According to the type of collisions, the score obtained and the no. of pigs left, the score will be updated accordingly and the corresponding menu will be drawn on the screen.  
+- `def draw_level_cleared() / draw_level_failed():` : According to the type of collisions, the score obtained and the no. of pigs left, the score will be updated accordingly and the corresponding menu will be drawn on the screen.   
 - `def post_solve_bird_pig(arbiter, space, _):` : While handling the collisions, if bird and pig collide , this function will reduce the life of the pig and increment the score accordingly.  
 - `def post_solve_bird_wood(arbiter, space, _) / post_solve_pig_wood(arbiter, space, _):` : Similar to the above function.
 - `def restart():` : The game should restart and all the parameters will be resetted.  
+
+
+   
+  ### Gravity - Zero can be switched on by the key 'Z'  
+  
+  
+![Angry Birds gravity-zero using Pygame + Pymunk](gravity-zero.png)  
+ 
  
 
 
