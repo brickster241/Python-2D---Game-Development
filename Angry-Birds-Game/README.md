@@ -2,7 +2,7 @@
 Pymunk is a easy-to-use pythonic 2d physics library that can be used whenever you need 2d rigid body physics from Python. This is perfect because 2d physics is absolutely necessary in the Angry Birds game! From simple concepts like static and dynamic body types, to complex rigid body dynamics, everything has been covered here. Spaces are the basic unit of simulation. Addition of rigid bodies, shapes and joints to the space and then stepping them all forward together through time is the main logic of this library.  
   
   
-  ![Angry Birds using Pygame + Pymunk](angry_bird.png)  
+  ![Angry Birds using Pygame + Pymunk](angry_birds.png)  
   
   
   
