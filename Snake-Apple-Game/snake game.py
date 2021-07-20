@@ -16,14 +16,14 @@ display_height = 600
 
 gameDisplay = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption('Snake Apple Game')
-icon = pygame.image.load('icon.png')
+icon = pygame.image.load('images/icon.png')
 pygame.display.set_icon(icon)
 
 block_size = 30
-img = pygame.image.load('head.png').convert_alpha()
+img = pygame.image.load('images/head.png').convert_alpha()
 img = pygame.transform.scale(img, (block_size, block_size))
 
-menu = pygame.image.load('menu.jpg').convert_alpha()
+menu = pygame.image.load('images/menu.jpg').convert_alpha()
 menu = pygame.transform.scale(menu, (display_width, display_height))
 
 
